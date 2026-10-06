@@ -1,0 +1,106 @@
+{
+  "message": "237006081 - Farid Firdaus - Saya mempelajari steganografi digital untuk melindungi pesan rahasia secara hati-hati.",
+  "cover": {
+    "shape": [
+      3024,
+      4032,
+      3
+    ],
+    "capacity_bits_1_lsb": 36578304
+  },
+  "p1": {
+    "difference_unit": "channel-byte",
+    "baseline_max_difference": 1,
+    "baseline_changed_bytes": 477,
+    "fixed_max_difference": 1,
+    "fixed_changed_bytes": 483,
+    "synthetic_low_value": {
+      "shape": [
+        6,
+        6,
+        3
+      ],
+      "low_values": [
+        3,
+        5,
+        6,
+        7,
+        9,
+        11
+      ],
+      "total_channel_bytes": 108,
+      "baseline_max_difference": 10,
+      "baseline_changed_bytes": 56,
+      "fixed_max_difference": 1,
+      "fixed_changed_bytes": 34
+    },
+    "slide_capacity_bits": 24385536,
+    "theoretical_capacity_bits": 36578304,
+    "fixed_extraction": "237006081 - Farid Firdaus - Saya mempelajari steganografi digital untuk melindungi pesan rahasia secara hati-hati."
+  },
+  "p2": {
+    "correct_seed_status": "berhasil",
+    "correct_seed_extraction": "237006081 - Farid Firdaus - Saya mempelajari steganografi digital untuk melindungi pesan rahasia secara hati-hati.",
+    "wrong_seed_status": "gagal: header panjang tidak valid (1965214094 bit)",
+    "sequential_changed_bytes": 483,
+    "random_changed_bytes": 485
+  },
+  "p3": [
+    {
+      "m": 1,
+      "capacity_bits": 36578304,
+      "capacity_kb": 4465.125,
+      "mse": 0.49991587909597995,
+      "psnr_db": 51.14183429167858
+    },
+    {
+      "m": 2,
+      "capacity_bits": 73156608,
+      "capacity_kb": 8930.25,
+      "mse": 2.509640250132975,
+      "psnr_db": 44.13468889817021
+    },
+    {
+      "m": 3,
+      "capacity_bits": 109734912,
+      "capacity_kb": 13395.375,
+      "mse": 10.56853882563828,
+      "psnr_db": 37.89065413657734
+    },
+    {
+      "m": 4,
+      "capacity_bits": 146313216,
+      "capacity_kb": 17860.5,
+      "mse": 42.86096003795036,
+      "psnr_db": 31.810184663386117
+    }
+  ],
+  "p4": {
+    "correct_keys": "237006081 - Farid Firdaus - Saya mempelajari steganografi digital untuk melindungi pesan rahasia secara hati-hati.",
+    "wrong_encryption_key_hex": "f365177a6c6a10b052ad7c76c31eda2175845c5cba5aba6c56174f8bccb020ddcc3b2d67da7ba8a0756c258ebd12e63cda28dbbc614cfe0e0c1d5d48b4c139d225acd531c5f7eaeda2a8f525aeb1288c07f944a59c567b5638b124c4aca2cedeadb390ece5258d0ce91c35a58f69dfda611b",
+    "wrong_position_status": "gagal: header panjang tidak valid (1965214094 bit)"
+  },
+  "p5": [
+    {
+      "format": "PNG",
+      "ber_percent": 0.0,
+      "header_status": "berhasil",
+      "decoded": "237006081 - Farid Firdaus - Saya mempelajari steganografi digital untuk melindungi pesan rahasia secara hati-hati."
+    },
+    {
+      "format": "BMP",
+      "ber_percent": 0.0,
+      "header_status": "berhasil",
+      "decoded": "237006081 - Farid Firdaus - Saya mempelajari steganografi digital untuk melindungi pesan rahasia secara hati-hati."
+    },
+    {
+      "format": "JPEG quality=95",
+      "ber_percent": 48.135964912280706,
+      "header_status": "gagal: header panjang tidak valid (2454264685 bit)",
+      "decoded": null
+    }
+  ],
+  "bonus": {
+    "payload_bits": 18289120
+  }
+}

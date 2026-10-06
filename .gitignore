@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+output/report_assets/
+output/run_stdout.json
+slide-code-pages/
+*.heic
