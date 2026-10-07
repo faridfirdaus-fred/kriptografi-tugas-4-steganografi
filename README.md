@@ -13,7 +13,6 @@ Implementasi dan bukti eksperimen Bagian II praktikum steganografi.
 - `src/buat_laporan_praktikum.py`: pembuat laporan DOCX.
 - `output/`: stego-image, change map, grafik PSNR, bidang LSB, dan hasil JSON.
 - `screenshots/`: output console eksperimen.
-- `237006081_Farid Firdaus_Praktikum.docx`: laporan Bagian II.
 
 ## Jalankan
 
